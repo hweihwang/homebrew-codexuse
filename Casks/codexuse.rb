@@ -1,6 +1,6 @@
 cask "codexuse" do
-  version "2.1.0"
-  sha256 "0d9c420787b675dbe6d1b937aa546c43e9536dd4f033c3ea40c4534611eea26d"
+  version "2.2.0"
+  sha256 "3cfaebde2f437dbe2b692518958f5114b70840e4cf7dde1ef4697fe06a97ee01"
 
   url "https://github.com/hweihwang/codexuse-desktop-releases/releases/download/v#{version}/CodexUse-mac-arm64.dmg"
   name "CodexUse"
@@ -11,6 +11,7 @@ cask "codexuse" do
   auto_updates true
 
   app "CodexUse.app"
+  binary "#{appdir}/CodexUse.app/Contents/Resources/bin/codexuse"
 
   uninstall quit: "com.codexuse.desktop"
 
