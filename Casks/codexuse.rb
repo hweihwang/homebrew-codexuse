@@ -1,8 +1,8 @@
 cask "codexuse" do
-  version "2.5.1"
-  sha256 "df57ea45e21e633066d51bf442c7762eb891595ce79ad2a94c4a65b5044ec3dc"
+  version "2.5.2"
+  sha256 "4f17e3dba39a4333718d090a50662f506e0775faf27940d6da47e5b6de607e48"
 
-  url "https://github.com/hweihwang/codexuse-desktop-releases/releases/download/v#{version}/CodexUse-mac-x64.dmg"
+  url "https://github.com/hweihwang/codexuse-desktop-releases/releases/download/v#{version}/CodexUse-mac-arm64.dmg"
   name "CodexUse"
   desc "CodexUse desktop profile manager with rate-limit telemetry and multi-account tools."
   homepage "https://codexuse.com/"
