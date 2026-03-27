@@ -1,8 +1,8 @@
 cask "codexuse" do
-  version "2.5.8"
-  sha256 "ee9b34caff17c240fc1edbb849c17ff21de922b6e36d589709ccc4236f329d35"
+  version "3.0.1"
+  sha256 "645f8251289d16aeff625fa249ec2b1e1140e266baf49d6bae794967cc9f835b"
 
-  url "https://github.com/hweihwang/codexuse-desktop-releases/releases/download/v#{version}/CodexUse-mac-arm64.dmg"
+  url "https://github.com/hweihwang/codexuse-desktop-releases/releases/download/v#{version}/stable-macos-arm64-CodexUse.dmg"
   name "CodexUse"
   desc "CodexUse desktop profile manager with rate-limit telemetry and multi-account tools."
   homepage "https://codexuse.com/"
@@ -11,12 +11,11 @@ cask "codexuse" do
   auto_updates true
 
   app "CodexUse.app"
-  binary "#{appdir}/CodexUse.app/Contents/Resources/bin/codexuse"
 
   uninstall quit: "com.codexuse.desktop"
 
   zap trash: [
-    "~/Library/Application Support/CodexUse",
+    "~/Library/Application Support/codexuse-desktop",
     "~/Library/Logs/CodexUse",
     "~/Library/Preferences/com.codexuse.desktop.plist",
     "~/Library/Saved Application State/com.codexuse.desktop.savedState",
