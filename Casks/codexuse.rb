@@ -1,6 +1,6 @@
 cask "codexuse" do
-  version "3.7.4"
-  sha256 "af89382f78976dedcadd559d5a58c7a0fc71926555dc1d1cefe93b80ed80251b"
+  version "3.7.5"
+  sha256 "087513cdaeb969d58e4f7e1fe18f3153b9d227e9cc5b05716a2efb63632224eb"
 
   url "https://github.com/hweihwang/codexuse-desktop-releases/releases/download/v#{version}/stable-macos-arm64-CodexUse.dmg"
   name "CodexUse"
@@ -8,7 +8,6 @@ cask "codexuse" do
   homepage "https://codexuse.com/"
 
   depends_on arch: :arm64
-  auto_updates true
 
   app "CodexUse.app"
 
