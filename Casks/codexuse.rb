@@ -1,6 +1,6 @@
 cask "codexuse" do
-  version "3.9.8"
-  sha256 "b2dc7a18a7ddffb83342566caee620697b1d85d56c99eaf09f13399971ea42ed"
+  version "3.9.9"
+  sha256 "8fad8d6f679cf0194719a69cca330accad35acd502e3b423018a71870b85b2aa"
 
   url "https://github.com/hweihwang/codexuse-desktop-releases/releases/download/v#{version}/stable-macos-arm64-CodexUse.dmg"
   name "CodexUse"
