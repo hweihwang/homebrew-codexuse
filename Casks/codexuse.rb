@@ -1,10 +1,10 @@
 cask "codexuse" do
-  version "5.6.3"
-  sha256 "c5fe43e87377e6981622cf9434b8aff4e604337559d8e97bba60d40e34fa3796"
+  version "6.0.0"
+  sha256 "b2d3457fc6980334bcd0fe575a240b0459eb1d9aa3b239717fdbbb1f644e3ff9"
 
   url "https://github.com/hweihwang/codexuse-desktop-releases/releases/download/v#{version}/stable-macos-arm64-CodexUse.dmg"
   name "CodexUse"
-  desc "CodexUse desktop profile manager with rate-limit telemetry and multi-account tools."
+  desc "Profile manager for the Codex app with rate limits and custom model providers"
   homepage "https://codexuse.com/"
 
   depends_on arch: :arm64
