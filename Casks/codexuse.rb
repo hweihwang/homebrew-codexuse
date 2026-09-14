@@ -1,6 +1,6 @@
 cask "codexuse" do
-  version "6.2.5"
-  sha256 "44d5321c2f0358c649bea72825835322937d3f22a7e472f033b739bc6942a3f1"
+  version "6.2.6"
+  sha256 "c7ce0ceb37449ed4ba755c3797ccf3338473f58647a36239e226f03660eb52c7"
 
   url "https://github.com/hweihwang/codexuse-desktop-releases/releases/download/v#{version}/stable-macos-arm64-CodexUse.dmg"
   name "CodexUse"
@@ -14,9 +14,15 @@ cask "codexuse" do
   uninstall quit: "com.codexuse.desktop"
 
   zap trash: [
+    "~/.codexuse",
     "~/Library/Application Support/codexuse-desktop",
+    "~/Library/Caches/com.codexuse.desktop",
+    "~/Library/Cookies/com.codexuse.desktop.binarycookies",
+    "~/Library/HTTPStorages/com.codexuse.desktop",
+    "~/Library/LaunchAgents/com.codexuse.desktop.desktop-llm-gateway.plist",
     "~/Library/Logs/CodexUse",
     "~/Library/Preferences/com.codexuse.desktop.plist",
     "~/Library/Saved Application State/com.codexuse.desktop.savedState",
+    "~/Library/WebKit/com.codexuse.desktop",
   ]
 end
