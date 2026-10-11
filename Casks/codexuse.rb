@@ -1,10 +1,10 @@
 cask "codexuse" do
-  version "6.7.0"
-  sha256 "31aecf176bbe6203e2640fc76ae4cccba05afed11c331185ba5766e22f10f5d7"
+  version "7.0.0"
+  sha256 "0fe13f9922b0c1b877b47ec71fb51e020f48a2db94ebbcf5ee97d8e470bb5ab0"
 
   url "https://github.com/hweihwang/codexuse-desktop-releases/releases/download/v#{version}/stable-macos-arm64-CodexUse.dmg"
   name "CodexUse"
-  desc "Keep every Codex account in its own home and Codex window"
+  desc "All your Codex accounts side by side, each in its own Codex window"
   homepage "https://codexuse.com/"
 
   depends_on arch: :arm64
