@@ -4,7 +4,7 @@ cask "codexuse" do
 
   url "https://github.com/hweihwang/codexuse-desktop-releases/releases/download/v#{version}/stable-macos-arm64-CodexUse.dmg"
   name "CodexUse"
-  desc "Plan and build with the right Codex account"
+  desc "Keep every Codex account in its own home and Codex window"
   homepage "https://codexuse.com/"
 
   depends_on arch: :arm64
