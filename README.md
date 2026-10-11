@@ -12,7 +12,7 @@ Update it with Homebrew, which replaces the in-app updater for this install:
 brew upgrade --cask codexuse
 ```
 
-CodexUse keeps every Codex account in its own Codex home and its own Codex window. One account plans a task, another builds it in an isolated Git worktree, and you review the diff before you accept it. Every feature is free to try for 7 days, then a one-time Pro license keeps them.
+CodexUse keeps every Codex account in its own Codex home and its own Codex window. It shows each account's headroom before a limit stops you, and Auto-roll moves new work to the next account. Every feature is free to try for 7 days, then a one-time Pro license keeps them.
 
 The cask needs macOS 13 or newer on Apple Silicon. For Windows and Linux packages, use the [latest release](https://github.com/hweihwang/codexuse-desktop-releases/releases/latest). The CLI installs on every platform with `npm install -g codexuse-cli`.
 
